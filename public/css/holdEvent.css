@@ -1,0 +1,91 @@
+.triangle-facing-right {  
+    display: inline-block;  
+    border-right: 4px solid;
+    border-bottom: 4px solid;  
+    width: 20px; 
+    height: 20px;  
+    transform: rotate(-45deg);  
+    
+}
+
+.line{
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: black;
+
+}
+
+.btn-main{
+    color: #fff;
+    background-color: #41b2ac;
+    border-color: #41b2ac;
+}
+
+.bg-main{
+    background-color: #f6f7f8;
+}
+
+.img-frame{
+    width: 516px;
+    height: 400px;
+
+}
+
+.img-content{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.category{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    width: 94px;
+    height: 140px;
+    margin: 7.5px 16px;
+    background-color: #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.category-img-container{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.category-img{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 50%;
+    top: 26px;
+    transform: translateX(-50%);
+}
+
+.scalebig{
+    transform: scale(1,1);
+    transition: all .1s ease-in-out;
+}
+
+.scalebig:hover{
+    transform: scale(1.1,1.1);
+    transition: all .3s ease-in-out;
+}
+
+.font-main{
+    color: #41b2ac;
+}
+
+
+/* bootstrap */
+.progress-bar{
+    background-color: #41b2ac;
+}

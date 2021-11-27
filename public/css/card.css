@@ -1,0 +1,43 @@
+
+        .card {
+            color: #41b2ac;
+            width: 200px;
+            height: 250px;
+        }
+
+        .card img {
+            width: 150px;
+            
+        }
+
+        .AllCard a {
+            text-decoration: none;
+        }
+
+        #cardImg{
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-wrap: wrap;
+        }
+
+        #card {
+            margin: 10px 10px;
+            border-radius: 10px;
+            box-shadow: rgb(187, 187, 187) 3px 3px 3px 3px;
+            display: inline-block;
+        }
+
+
+
+      
+        /* ---------------------------分隔線(卡片hover)--------------------------- */
+
+        .card:hover {
+            margin: 0 20px;
+            border-radius: 10px;
+            box-shadow: rgb(187, 187, 187) 3px 3px 3px 3px;
+            background-color: #41b2ac;
+            color: white;
+        }

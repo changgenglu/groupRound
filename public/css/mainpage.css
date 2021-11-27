@@ -1,0 +1,212 @@
+body {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+.MainPageBanner {
+  text-align: center;
+}
+
+#MainPagePicture {
+  width: 100vw;
+  height: 60vh;
+}
+/* ---------------------------分隔線(按鈕1)--------------------------- */
+.MainPageButtonAll {
+  display: inline-flex;
+  align-items: center;
+}
+
+.MainPageButton {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 1vw;
+  padding-top: 5vh;
+}
+
+.MainPageButton a {
+  position: relative;
+  width: 35vw;
+  height: 17.5vh;
+  text-align: center;
+  line-height: 17.5vh;
+  margin: 1vw;
+  background-color: #ffa101;
+  color: white;
+  font-size: 7.5vh;
+  font-weight: 500;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.MainPageButton a span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  transition: 0s ease-in;
+}
+
+.MainPageButton a:hover span {
+  transition: 0.4s ease-in;
+  transform: translateY(-100%);
+  color: white;
+}
+
+.MainPageButton a:before {
+  content: "";
+  position: absolute;
+  bottom: -900px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 900px;
+  background-color: #41b2ac;
+  border-radius: 50%;
+  transition: 0.4s ease-in;
+}
+
+.MainPageButton a:hover:before {
+  bottom: -200px;
+}
+
+/* ---------------------------分隔線(按鈕2)--------------------------- */
+
+.MainPageButton2 {
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.MainPageButton2 a {
+  position: relative;
+  width: 35vw;
+  height: 17.5vh;
+  text-align: center;
+  line-height: 17.5vh;
+  margin: 1vw;
+  background-color: #ffa101;
+  color: white;
+  font-size: 7.5vh;
+  font-weight: 500;
+  text-decoration: none;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.MainPageButton2 a span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  transition: 0s ease-in;
+}
+
+.MainPageButton2 a:hover span {
+  transition: 0.4s ease-in;
+  transform: translateY(-100%);
+  color: white;
+}
+
+.MainPageButton2 a:before {
+  content: "";
+  position: absolute;
+  bottom: -900px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 900px;
+  height: 900px;
+  background-color: #41b2ac;
+  border-radius: 50%;
+  transition: 0.4s ease-in;
+}
+
+.MainPageButton2 a:hover:before {
+  bottom: -200px;
+}
+/* ---------------------------分隔線(搜尋列)--------------------------- */
+.MainPageSearch {
+  display: inline-flex;
+  position: relative;
+}
+
+.MainPageSearchSelect {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(196, 196, 196);
+  width: 3vw;
+}
+/* ---------------------------分隔線(搜尋按鈕)--------------------------- */
+#MainPageSearchButton {
+  background-color: #ffa101;
+  color: white;
+  font-weight: 800;
+  width: 12.5vw;
+}
+
+/* ---------------------------分隔線(推薦文字)--------------------------- */
+
+.MainPageText {
+  position: relative;
+  font-size: 5vh;
+  text-align: left;
+  color: #41b2ac;
+  display: block;
+  margin-left: 12.5vw;
+}
+
+/* ---------------------------分隔線(卡片)--------------------------- */
+
+.card {
+  color: #41b2ac;
+}
+
+.AllCard a {
+  text-decoration: none;
+}
+
+#card1 {
+  margin: 6vh 0 0 2vw;
+  border-radius: 10px;
+  box-shadow: rgb(187, 187, 187) 3px 3px 3px 3px;
+  display: inline-flex;
+}
+
+#card2 {
+  margin: 6vh 0 0 2vw;
+  border-radius: 10px;
+  box-shadow: rgb(187, 187, 187) 3px 3px 3px 3px;
+}
+
+#card3 {
+  margin: 6vh 0 0 2vw;
+  border-radius: 10px;
+  box-shadow: rgb(187, 187, 187) 3px 3px 3px 3px;
+}
+
+/* ---------------------------分隔線(看更多按鈕)--------------------------- */
+#MoreButton {
+  display: inline-flex;
+  margin: 3vw 0vw 1vw 70vw;
+}
+
+/* ---------------------------分隔線(卡片hover)--------------------------- */
+
+.card:hover {
+  margin: 6vh 0 0 2vw;
+  border-radius: 10px;
+  box-shadow: rgb(187, 187, 187) 3px 3px 3px 3px;
+  background-color: #41b2ac;
+  color: white;
+}

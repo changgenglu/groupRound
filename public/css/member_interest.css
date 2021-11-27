@@ -1,0 +1,23 @@
+#userInterest{
+    background-color:#41B2AC;
+    border-radius: 10px;
+    color: white;   
+    width: 110px;
+    text-align: center;
+    line-height:50px;
+    margin: 5px;
+    border: 0px;
+}
+
+#addInterest{
+    background-color:#41B2AC;
+    border-radius: 10px;
+    color: white;   
+    width: 50px;
+    text-align: center;
+    line-height:50px;
+    margin: 5px;
+    font-size: 3rem;
+    padding: 0;
+    border: 0px;
+}

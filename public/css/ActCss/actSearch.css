@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ActPageSearchSelect{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    width: 3vw;
+    border-radius: 5px;
+    
+ }
+ .ActPageSearch{
+    display: inline-flex;
+    position: relative;
+     width: 800px;
+    
+}
+#ActPageSearchButton{
+    background-color:#ffa101 ;
+    color: white;
+    font-weight: 800;
+    width: 12.5vw;
+}
+.ActTags{
+    background-color:#41B3AC;color: #F0F0F0;font-size: 18px;
+
+}

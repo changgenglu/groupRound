@@ -1,0 +1,66 @@
+.btn-orange {
+    color: #fff;
+    background-color: #ffa101;
+    border-color: #ffa101;
+}
+
+.btn-orange:hover {
+    color: #fff;
+    background-color: #ff8801;
+    border-color: #ff8801;
+}
+
+.btn-outline-orange {
+    color: #ffa101;
+    border-color: #ffa101;
+}
+
+.btn-outline-orange:hover {
+    color: #fff;
+    background-color: #ff8801;
+    border-color: #ff8801;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #41b2ac;
+    border-color: #41b2ac;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #068a83;
+    border-color: #068a83;
+}
+
+.btn-outline-primary {
+    color: #41b2ac;
+    border-color: #41b2ac;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #068a83;
+    border-color: #068a83;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #d6d6d6;
+    border-color: #d6d6d6;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #aaaaaa;
+    border-color: #aaaaaa;
+}
+
+a {
+    color: #41b2ac;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #41b2ac;
+}
